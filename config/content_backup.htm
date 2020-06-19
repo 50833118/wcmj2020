@@ -1,14 +1,24 @@
-<h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.。</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<h1>ONE</h1>
+<p><br/>我的自介<span>／/( ◕‿‿◕ )＼</span></p>
+<h6><span><img alt="" height="656" src="/images/1111.jpg" width="525"/></span></h6>
+<h6><span>上面圖片為自畫像，雖然畫畫功力爛，但我覺得挺像的*ଘ(੭<em>ˊᵕˋ)੭</em></span></h6>
+<h6>我是108年的五精一甲，學號50833118，自介到此結束!!!</h6>
+<h6>雖然有突然，但我害羞<span>（ ´☣///_ゝ///☣｀）</span></h6>
+<h6>就讓我安麗你們其他東西吧!!!</h6>
+<h6>雖然推的東西不多，但我很努力在上課了</h6>
+<h6>以下要安麗各位的是熊</h6>
+<h6><img alt="" height="462" src="/images/3333.gif" width="462"/></h6>
+<h6>沒有啦，是line裡面的熊大</h6>
+<h6><img alt="" height="581" src="/images/222.jpg" width="581"/></h6>
+<h6>是不是很可愛啊<span>･ิ≖ ω ≖･ิ✧</span></h6>
+<h6>至少我覺得很可愛啦<span>◝(⁰▿⁰)◜</span></h6>
+<h6>好啦，換吃得可以吧<span>(๑´ڡ`๑)</span></h6>
+<h6>我要推薦雲林縣斗六市鎮北路<span>麗嬰房-雲林斗六鎮北門市</span></h6>
+<h6>旁邊的火雞肉飯店，他的雞肉飯跟紫菜湯真的是很好吃!!<span>（¯﹃¯）</span></h6>
+<h6>超級無敵推去吃，100分推推<span>(΄ಢ◞౪◟ಢ‵)◉◞౪◟◉)。</span></h6>
+<h6><span>好了，我的安麗到此結束(｡•ㅅ•｡)♡</span></h6>
+<h6><span>謝謝大家觀賞(｡◕∀◕｡)</span></h6>
+<p></p>
 <h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
@@ -102,7 +112,8 @@ Host github.com
 </tbody>
 </table>
 <h4 class="syntaxhighlighter js" id="highlighter_78664">之後就可以透過近端的 .ppk private key 與 Github.com 上的 public key 對應, 無需輸入帳號密碼就可以進行 git push.</h4>
-</div><h1>blogger</h1>
+</div>
+<h1>Blogger</h1>
 <p><br/>我的blogger : <a href="https://50833118.blogspot.com/">https://50833118.blogspot.com/</a></p>
 <h2>編輯</h2>
 <h5>啟用 leo 在leo中開啟 tmp → wcmj2020 → config ，再打開 pelican.leo。<br/>編輯遠端與近端和共用，與倉儲連結。</h5>
@@ -292,3 +303,14 @@ except(client.AccessTokenRefreshError):
 <p><img alt="" height="325" src="/images/螢幕擷取畫面 (1).png" width="577"/></p>
 <p><img alt="" height="324" src="/images/螢幕擷取畫面 (2).png" width="576"/></p>
 <p>選擇主檔案，按add_to_blogger，文章就會推到blogger上；如要編輯在leo裡編輯，<span>選擇主檔案，按edit_to_blogger</span>，<span>文章就會更新到blogger上。</span></p>
+<h1>上課筆記</h1>
+<h5>沒排順序，但實打實都是本人抄的!!!<span>ヾ(；ﾟ(OO)ﾟ)ﾉ</span></h5>
+<h4><img alt="" height="280" src="/images/01.jpg" width="373"/></h4>
+<h4><img alt="" height="373" src="/images/02.jpg" width="280"/></h4>
+<h4><img alt="" height="280" src="/images/03.jpg" width="373"/></h4>
+<h4><img alt="" height="280" src="/images/04.jpg" width="373"/></h4>
+<h4><img alt="" height="280" src="/images/05.jpg" width="373"/></h4>
+<h4><img alt="" height="280" src="/images/06.jpg" width="373"/></h4>
+<h4><img alt="" height="373" src="/images/07.jpg" width="280"/></h4>
+<h4><img alt="" height="373" src="/images/08.jpg" width="280"/></h4>
+<h4><img alt="" height="373" src="/images/09.jpg" width="280"/></h4>
